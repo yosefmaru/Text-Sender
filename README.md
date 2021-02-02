@@ -3,7 +3,7 @@
 
 **High-level, end-to-end diagram**
 
-![High-level architectural diagram](Diagrams/ArchDiagram.png)
+![High-level architectural diagram](diagrams/Text-Sender-AWS.png)
 
 &nbsp;
 
@@ -15,4 +15,4 @@ The contents and build artifacts of the website are stored in S3. Amazon CloudFr
 
 The core of the backend infrastructure consists of Amazon DynamoDB, AWS Lambda and Amazon API Gateway. The application uses Amazon DynamoDB to store all of the data. 
 
-![Backend diagram](Diagrams/BackendDiagram.png)
+![Backend diagram](diagrams/Text-Sender-AWS.png)

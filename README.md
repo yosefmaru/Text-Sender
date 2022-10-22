@@ -7,9 +7,13 @@
 
 &nbsp;
 
+**What is this App**
+
+This web-app sends a random bible verse by entering a phone number. It was used by church members to receive a verse during a new year eve celebration. It is built using React web framework for user interface and Python for backend functions. 
+
 **Frontend**
 
-The contents and build artifacts of the website are stored in S3. Amazon CloudFront caches the frontend content from S3, presenting the application to the user via a distribution.
+The contents and build artifacts of the website are stored in S3. Amazon CloudFront caches the frontend content from S3, serving the application to the user via an edge location.
 
 **Backend**
 
